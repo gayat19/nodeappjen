@@ -12,7 +12,7 @@ node{
    stage('Push Image'){
 		docker.withRegistry('https://index.docker.io/v1/','docker-hub'){
 		 app.push("${env.BUILD_NUMBER}")
-                 app.pusg("latest")
+                 app.push("latest")
 		}
 	echo "Pushing the image to docker hub"
 	}
