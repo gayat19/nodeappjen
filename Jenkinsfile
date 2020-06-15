@@ -10,7 +10,7 @@ node{
 		echo "Test done!!"
 	}
    stage('Push Image'){
-		docker.withRegistry('https://index.docker.io/v1','docker-hub'){
+		docker.withRegistry('https://index.docker.io/v1/','docker-hub'){
 		 app.push("${env.BUILD_NUMBER}")
                  app.pusg("latest")
 		}
