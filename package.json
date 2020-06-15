@@ -1,0 +1,23 @@
+{
+  "name": "gayathri1910-nodeappg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "jenkins"
+  ],
+  "author": "G3",
+  "license": "ISC",
+  "devDependencies": { "test": ">=0.6.0" }
+}
+
